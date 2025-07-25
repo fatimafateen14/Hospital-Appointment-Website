@@ -1,0 +1,204 @@
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\appsettings.Development.json
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\appsettings.json
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\projectvp.staticwebassets.runtime.json
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\projectvp.staticwebassets.endpoints.json
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\projectvp.exe
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\projectvp.deps.json
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\projectvp.runtimeconfig.json
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\projectvp.dll
+C:\programming\projectvp\projectvp\bin\Debug\net7.0\projectvp.pdb
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.AssemblyInfoInputs.cache
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.AssemblyInfo.cs
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.csproj.CoreCompileInputs.cache
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.MvcApplicationPartsAssemblyInfo.cache
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.RazorAssemblyInfo.cache
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.RazorAssemblyInfo.cs
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\scopedcss\bundle\projectvp.styles.css
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\scopedcss\projectbundle\projectvp.bundle.scp.css
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.json
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.development.json
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.projectvp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.projectvp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.build.projectvp.props
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.projectvp.props
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.projectvp.props
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.dll
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\refint\projectvp.dll
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.pdb
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\projectvp.genruntimeconfig.cache
+C:\programming\projectvp\projectvp\obj\Debug\net7.0\ref\projectvp.dll
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\appsettings.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.staticwebassets.runtime.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.exe
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.deps.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.runtimeconfig.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.dll
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.pdb
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.AssemblyInfoInputs.cache
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.AssemblyInfo.cs
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.csproj.CoreCompileInputs.cache
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.RazorAssemblyInfo.cache
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.RazorAssemblyInfo.cs
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.projectvp.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.build.projectvp.props
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.projectvp.props
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.projectvp.props
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\scopedcss\bundle\projectvp.styles.css
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\scopedcss\projectbundle\projectvp.bundle.scp.css
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.dll
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\refint\projectvp.dll
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.pdb
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.genruntimeconfig.cache
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\ref\projectvp.dll
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.staticwebassets.endpoints.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets\msbuild.projectvp.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+C:\Users\Microsoft\Desktop\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\appsettings.Development.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\appsettings.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.staticwebassets.runtime.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.staticwebassets.endpoints.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.exe
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.deps.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.runtimeconfig.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\projectvp.pdb
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.AssemblyInfoInputs.cache
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.AssemblyInfo.cs
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.csproj.CoreCompileInputs.cache
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.MvcApplicationPartsAssemblyInfo.cache
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.RazorAssemblyInfo.cache
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.RazorAssemblyInfo.cs
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\scopedcss\bundle\projectvp.styles.css
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\scopedcss\projectbundle\projectvp.bundle.scp.css
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.development.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\refint\projectvp.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.pdb
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.genruntimeconfig.cache
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\ref\projectvp.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.json.cache
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Azure.Core.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Azure.Identity.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.ClientModel.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.Memory.Data.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.csproj.AssemblyReference.cache
+C:\programming\VP\projectvp (2)\projectvp\projectvp\projectvp\obj\Debug\net7.0\projectvp.csproj.Up2Date
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\appsettings.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\projectvp.staticwebassets.runtime.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\projectvp.staticwebassets.endpoints.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\projectvp.exe
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\projectvp.deps.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\projectvp.runtimeconfig.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\projectvp.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\projectvp.pdb
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Azure.Core.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Azure.Identity.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Identity.Client.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.SqlServer.Server.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.ClientModel.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.Configuration.ConfigurationManager.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.Drawing.Common.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.Memory.Data.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.Runtime.Caching.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.Security.Permissions.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\System.Windows.Extensions.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\bin\Debug\net7.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.csproj.AssemblyReference.cache
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.AssemblyInfoInputs.cache
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.AssemblyInfo.cs
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.csproj.CoreCompileInputs.cache
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.RazorAssemblyInfo.cache
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.RazorAssemblyInfo.cs
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\scopedcss\Shared\MainLayout.razor.rz.scp.css
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\scopedcss\Shared\NavMenu.razor.rz.scp.css
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\scopedcss\bundle\projectvp.styles.css
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\scopedcss\projectbundle\projectvp.bundle.scp.css
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.json.cache
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.build.endpoints.json
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\staticwebassets.upToDateCheck.txt
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.csproj.Up2Date
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\refint\projectvp.dll
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.pdb
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\projectvp.genruntimeconfig.cache
+C:\Users\Laptop Mastter\OneDrive\Desktop\VP\Hospital_website_project_VP\projectvp\projectvp\obj\Debug\net7.0\ref\projectvp.dll

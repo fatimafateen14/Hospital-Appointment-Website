@@ -1,0 +1,292 @@
+﻿:root {
+    --cream: #f1efec;
+    --light-brown: #d4c9be;
+    --blue: #123458;
+    --black: #030303;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--cream);
+    color: var(--black);
+}
+/* Base navbar styles (your existing) */
+.navbar {
+    background-color: #F1EFEC;
+    color: var(--black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ccc;
+    flex-wrap: wrap; /* Allow wrapping */
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--black);
+    line-height: 1.2;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 35px;
+    margin: 0;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+    .nav-links li a {
+        text-decoration: none;
+        color: var(--black);
+        font-weight: normal;
+        transition: color 0.3s ease, font-weight 0.3s ease;
+    }
+
+        .nav-links li a:hover,
+        .nav-links li a:focus {
+            color: var(--blue);
+            font-weight: bold;
+            outline: none;
+        }
+
+        .nav-links li a.active {
+            color: var(--blue);
+            font-weight: bold;
+        }
+
+.signup-btn {
+    display: inline-block;
+    background-color: var(--blue);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    border: none;
+    text-align: center;
+}
+
+    /* Hover/focus for sign up */
+    .signup-btn:hover,
+    .signup-btn:focus {
+        background-color: #f1efec;
+        color: var(--blue);
+        outline: none;
+        text-decoration: none;
+    }
+
+/* --- Responsive Styles --- */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 15px 20px;
+    }
+
+    .navbar-left {
+        width: 100%;
+        justify-content: flex-start;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 12px;
+        width: 100%;
+    }
+
+        .nav-links li {
+            width: 100%;
+        }
+
+            .nav-links li a {
+                display: block;
+                width: 100%;
+                padding: 8px 0;
+            }
+
+    .signup-btn {
+        width: 100%;
+        padding: 12px 0;
+        text-align: center;
+        border-radius: 12px;
+        font-size: 1rem;
+    }
+}
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px 20px;
+        gap: 15px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 15px;
+        width: 100%;
+    }
+
+        .nav-links li {
+            width: 100%;
+        }
+
+            .nav-links li a {
+                display: block;
+                width: 100%;
+            }
+
+    .signup-btn {
+        align-self: stretch;
+        text-align: center;
+        width: 100%;
+        padding: 12px 0;
+    }
+}
+
+/* Slider Section */
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+
+    8% {
+        opacity: 1;
+    }
+
+    25% {
+        opacity: 1;
+    }
+
+    33% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.slider-container {
+    width: 100%;
+    height: 60vh;
+    position: relative;
+    overflow: hidden;
+}
+
+    .slider-container img {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 0;
+        animation: fadeInOut 12s infinite;
+    }
+
+        /* Second image appears after 4s */
+        .slider-container img:nth-child(2) {
+            animation-delay: 4s;
+        }
+
+        /* Third image appears after 8s */
+        .slider-container img:nth-child(3) {
+            animation-delay: 8s;
+        }
+.services-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 20px;
+}
+.scroll-section-wrapper {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding: 0 20px; /* optional padding */
+}
+
+.scroll-box {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    padding: 20px 10px;
+    scroll-behavior: smooth;
+    scrollbar-width: none; /* Firefox */
+}
+
+    .scroll-box::-webkit-scrollbar {
+        display: none; /* Chrome, Safari */
+    }
+.card {
+    flex: 0 0 auto;
+    width: 280px;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    scroll-snap-align: start;
+    transition: transform 0.3s ease; /* Add this for smooth hover */
+}
+
+    .card:hover {
+        transform: scale(1.05); /* Add this for hover zoom effect */
+        box-shadow: 0 8px 20px rgba(0,0,0,0.2); /* Optional: deeper shadow on hover */
+    }
+
+.card-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Makes the image cover the card without distortion */
+    display: block;
+}
+
+
+
+
+.fade-left, .fade-right {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: 50px;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.fade-left {
+    left: 0;
+    background: linear-gradient(to right, #ffffff 0%, transparent 100%);
+}
+
+.fade-right {
+    right: 0;
+    background: linear-gradient(to left, #ffffff 0%, transparent 100%);
+}
+

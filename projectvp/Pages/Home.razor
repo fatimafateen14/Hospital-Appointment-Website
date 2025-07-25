@@ -1,0 +1,133 @@
+﻿@page "/"
+@code {
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAF Complex</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body style="background-color: white"> 
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="images/logo.png" alt="Logo" class="logo-img" />
+            <div class="logo-text">
+                <span class="paf">PAF</span><br />
+                <span class="complex">Complex</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="Services">Services</a></li>
+            <li><a href="Appointment">Appointments</a></li>
+            <li><a href="Complaint">Complaints</a></li>
+            <li><a href="Contact">About Us</a></li>
+        </ul>
+        <a href="/Signup" class="signup-btn">Sign Up</a>
+
+    </nav>
+
+    <!-- Image Slider Section -->
+
+    <div class="slider-container">
+        <img src="images/h1.jpg" alt="Slide 1" />
+        <img src="images/h2.jpg" alt="Slide 2" />
+        <img src="images/h3.jpg" alt="Slide 3" />
+    </div>
+    <!-- Info Paragraph -->
+    <div style="background-color: #D4C9BE; font-family:'Times New Roman', Times, serif; padding: 20px; text-align: center;">
+        <p>
+            PAF Hospital Islamabad is one of the best state of the art hospitals in Islamabad. PAF is widely recognized as a multispeciality hospital in Islamabad with an excellent panel of certified doctors, nurses, and paramedical staff. PAF has one of the best OPD consultation services and also has high patient satisfaction with IPD services. 
+        </p>
+    </div>
+
+    <!-- Explore Services Section -->
+    <section style="text-align: center; padding: 40px;">
+        <h2><b>Explore Our Services </b></h2>
+
+        <div class="scroll-section-wrapper">
+            <!-- Left Gradient -->
+            <div class="fade-left"></div>
+
+            <!-- Scrollable Card Row -->
+            <div class="scroll-box">
+                <div class="card">
+                    <img src="images/emergency.png" alt="Emergency Services" class="card-img">
+                </div>
+                <div class="card">
+                    <img src="images/operation.png" alt="Operation Theatre" class="card-img">
+                
+                </div>
+                <div class="card">
+                    <img src="images/opd.png" alt="OPD" class="card-img">
+              
+                </div>
+                <div class="card">
+                    <img src="images/dl.png" alt="OPD" class="card-img">
+            
+                </div>
+                <div class="card">
+                    <img src="images/ipd.png" alt="OPD" class="card-img">
+              
+                </div>  
+            </div>
+
+            <!-- Right Gradient -->
+            <div class="fade-right"></div>
+        </div>
+    </section>
+
+
+    <!-- Section after cards -->
+    <div style="background-color: #F1EFEC; display: flex; align-items: center; justify-content: center; padding: 40px; flex-wrap: wrap;">
+        <div style="flex: 1; text-align: center; padding: 20px;">
+            <img src="images/h4.png" alt="Hospital Room" style="max-width: 100%; height: auto; border-radius: 10px;">
+        </div>
+        <div style="flex: 1; padding: 20px; font-family: 'Times New Roman', Times, serif;">
+            <h2 style="color: #003366;"><br> <strong><center>Welcome to PAF Complex</center></strong></h2>
+            <p>
+                <strong>PAF Hospital Islamabad</strong> has a dedicated team of highly professional and experienced medical staff who are associated with renowned public and private health sectors.
+                <br><br>
+                 PAF Islamabad has some of the best specialists practicing as laparoscopic surgeons, cardiologists, pediatricians, neonatologists, plastic surgeons, general physicians, dermatologists and gynecologists.
+                <br><br>
+                PAF Hospital Islamabad has a fully equipped modern state-of-the-art infrastructure. There are up-to-date modern delivery rooms, IPD, OPD, 24/7 emergency services, operation theatre, pharmacy, diagnostic laboratory, nursery, and X-ray facilities.
+            </p>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer style="background-color: #123458; color: white; padding: 40px 20px; display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 200px; display: flex; align-items: center;">
+            <img src="images/logo2.png" alt="Logo" style="width: 40px; height: auto; margin-right: 2px;">
+            <div>
+                <span style="font-size: 20px; font-weight: bold;">PAF</span>
+                <span style="font-size: 16px;">Complex</span>
+            </div>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+            <h5>QUICK LINKS</h5>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="Services" style="color: white; text-decoration: none;">Services</a></li>
+                <li><a href="Appointment" style="color: white; text-decoration: none;">Appointment</a></li>
+                <li><a href="Complaint" style="color: white; text-decoration: none;">Complaints</a></li>
+                <li><a href="Contact" style="color: white; text-decoration: none;">About Us</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+            <h5>CONTACT US THROUGH</h5>
+            <div style="display: flex; gap: 10px;">
+                <a href="https://web.facebook.com/PAF.Hospital.Islamabad/?_rdc=1&_rdr"><img src="images/fb.png" alt="Facebook" style="width: 35px;"></a>
+                <a href="https://www.instagram.com/pafhospital/"><img src="images/insta.png" alt="Instagram" style="width: 35px;"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter" style="width: 35px;"></a>
+            </div>
+        </div>
+    </footer>
+
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+﻿@page "/Services"
+@code {
+
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAF Complex</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+</head>
+<body style="background-color: white"> 
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="images/logo.png" alt="Logo" class="logo-img" />
+            <div class="logo-text">
+                <span class="paf">PAF</span><br />
+                <span class="complex">Complex</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="Services">Services</a></li>
+            <li><a href="Appointment">Appointments</a></li>
+            <li><a href="Complaint">Complaints</a></li>
+            <li><a href="Contact">About Us</a></li>
+        </ul>
+        <a href="/Signup" class="signup-btn">Sign Up</a>
+    </nav>
+    <div style="background-color: #F1EFEC; margin-top:10px; font-family:'Times New Roman', Times, serif; padding: 20px; text-align: center;">
+        <center>
+            <h2 style="color: #123458"><b>Our Services</b></h2>
+        </center>
+        <p style="color: #123458">
+            <b>At PAF Hospital Islamabad, we provide comprehensive healthcare services with
+            a focus on quality, safety, and care. Our hospital is equipped with modern
+            technology and expert medical professionals dedicated to your well-being.</b>
+        </p>
+        <p><b>We are proud to offer consultations and treatment by some of the best specialists in Pakistan</b></p>
+    </div>
+    
+
+    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 40px 60px; padding: 10px;">
+        <!-- Card 1: Dentistry -->
+        <div style="display: flex; align-items: center; background-color: #F1EFEC; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 45%; min-width: 300px; padding: 10px;">
+            <div style="flex: 1; text-align: center;">
+                <img src="images/dentist.png" alt="Dentistry" style="width: 120px; height: 130px; margin-bottom: 4px;" />
+                <h3 style="color: #123458; margin: 0;">Dentistry</h3>
+            </div>
+            <div style="flex: 2; padding-left: 15px;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Sadia Khan</strong><br>Consultant Dentist<br>Visiting Time: 9:00AM - 12:00PM</p>
+                <a href="Appointment?doctor=Dr.%20Sadia%20Khan&time=9%3A00AM%20-%2012%3A00PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+                <hr style="margin: 6px 0;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Fatima Ali</strong><br>Senior Dental Surgeon<br>Visiting Time: 3:00PM - 6:00PM</p>
+                <a href="Appointment?doctor=Dr.%20Fatima%20Ali&time=3%3A00PM%20-%206%3A00PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 2: Neurology -->
+        <div style="display: flex; align-items: center; background-color: #F1EFEC; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 45%; min-width: 300px; padding: 10px;">
+            <div style="flex: 1; text-align: center;">
+                <img src="images/neuro.png" alt="Neurology" style="width: 120px; height: 130px; margin-bottom: 4px;" />
+                <h3 style="color: #123458; margin: 0;">Neurology</h3>
+            </div>
+            <div style="flex: 2; padding-left: 15px;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Ayesha Rehman</strong><br>Consultant Neurologist<br>Visiting Time: 9:00AM - 12:00PM</p>
+                <a href="Appointment?doctor=Dr.%20Ayesha%20Rehman&time=9%3A00AM%20-%2012%3A00PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+                <hr style="margin: 6px 0;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Usman Zafar</strong><br>Senior Neurologist<br>Visiting Time: 3:00PM - 6:00PM</p>
+                <a href="Appointment?doctor=Dr.%20Usman%20Zafar&time=3%3A00PM%20-%206%3A00PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 3: Nephrology -->
+        <div style="display: flex; align-items: center; background-color: #F1EFEC; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 45%; min-width: 300px; padding: 10px;">
+            <div style="flex: 1; text-align: center;">
+                <img src="images/nephro.png" alt="Nephrology" style="width: 120px; height: 130px; margin-bottom: 4px;" />
+                <h3 style="color: #123458; margin: 0;">Nephrology</h3>
+            </div>
+            <div style="flex: 2; padding-left: 15px;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Sana Iqbal</strong><br>Consultant Nephrologist<br>Visiting Time: 8:30AM - 11:30AM</p>
+                <a href="Appointment?doctor=Dr.%20Sana%20Iqbal&time=8%3A30AM%20-%2011%3A30AM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+                <hr style="margin: 6px 0;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Imran Farooq</strong><br>Senior Nephrologist<br>Visiting Time: 2:30PM - 5:30PM</p>
+                <a href="Appointment?doctor=Dr.%20Imran%20Farooq&time=2%3A30PM%20-%205%3A30PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 4: Dermatology -->
+        <div style="display: flex; align-items: center; background-color: #F1EFEC; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 45%; min-width: 300px; padding: 10px;">
+            <div style="flex: 1; text-align: center;">
+                <img src="images/derma.png" alt="Dermatology" style="width: 120px; height: 130px; margin-bottom: 4px;" />
+                <h3 style="color: #123458; margin: 0;">Dermatology</h3>
+            </div>
+            <div style="flex: 2; padding-left: 15px;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Hira Shahid</strong><br>Consultant Dermatologist<br>Visiting Time: 10:00AM - 1:00PM</p>
+                <a href="Appointment?doctor=Dr.%20Hira%20Shahid&time=10%3A00AM%20-%201%3A00PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+                <hr style="margin: 6px 0;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Bilal Mehmood</strong><br>Senior Dermatologist<br>Visiting Time: 4:00PM - 7:00PM</p>
+                <a href="Appointment?doctor=Dr.%20Bilal%20Mehmood&time=4%3A00PM%20-%207%3A00PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 5: Nutrition -->
+        <div style="display: flex; align-items: center; background-color: #F1EFEC; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 45%; min-width: 300px; padding: 10px;">
+            <div style="flex: 1; text-align: center;">
+                <img src="images/nutri.png" alt="Nutrition" style="width: 120px; height: 130px; margin-bottom: 4px;" />
+                <h3 style="color: #123458; margin: 0;">Nutrition</h3>
+            </div>
+            <div style="flex: 2; padding-left: 15px;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Mahnoor Rizvi</strong><br>Clinical Nutritionist<br>Visiting Time: 9:30AM - 12:30PM</p>
+                <a href="Appointment?doctor=Dr.%20Mahnoor%20Rizvi&time=9%3A30AM%20-%2012%3A30PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+                <hr style="margin: 6px 0;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Aliya Waqar</strong><br>Senior Dietician<br>Visiting Time: 3:30PM - 6:30PM</p>
+                <a href="Appointment?doctor=Dr.%20Aliya%20Waqar&time=3%3A30PM%20-%206%3A30PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+            </div>
+        </div>
+
+        <!-- Card 6: Cardiology -->
+        <div style="display: flex; align-items: center; background-color: #F1EFEC; border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); width: 45%; min-width: 300px; padding: 10px;">
+            <div style="flex: 1; text-align: center;">
+                <img src="images/card.png" alt="Cardiology" style="width: 120px; height: 130px; margin-bottom: 4px;" />
+                <h3 style="color: #123458; margin: 0;">Cardiology</h3>
+            </div>
+            <div style="flex: 2; padding-left: 15px;">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Adnan Qureshi</strong><br>Cardiologist<br>Visiting Time: 8:00AM - 11:00AM</p>
+                <a href="Appointment?doctor=Dr.%20Adnan%20Qureshi&time=8%3A00AM%20-%2011%3A00AM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+                <hr style="margin: 6px 0; font-size:15px">
+                <p style="margin: 0 0 6px 0; font-size:15px"><strong>Dr. Farah Javed</strong><br>Senior Cardiologist<br>Visiting Time: 2:00PM - 5:00PM</p>
+                <a href="Appointment?doctor=Dr.%20Farah%20Javed&time=2%3A00PM%20-%205%3A00PM">
+                    <button style="background-color: #123458; color: white; border: none; padding: 6px 10px; border-radius: 5px; cursor: pointer;">Book Appointment</button>
+                </a>
+            </div>
+        </div>
+        </div>
+    <!-- Footer -->
+    <footer style="background-color: #123458; margin-top:10px; color: white; padding: 40px 20px; display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 200px; display: flex; align-items: center;">
+            <img src="images/logo2.png" alt="Logo" style="width: 40px; height: auto; margin-right: 2px;">
+            <div>
+                <span style="font-size: 20px; font-weight: bold;">PAF</span>
+                <span style="font-size: 16px;">Complex</span>
+            </div>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+            <h5>QUICK LINKS</h5>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="Services" style="color: white; text-decoration: none;">Services</a></li>
+                <li><a href="Appointment" style="color: white; text-decoration: none;">Appointment</a></li>
+                <li><a href="Complaint" style="color: white; text-decoration: none;">Complaints</a></li>
+                <li><a href="Contact" style="color: white; text-decoration: none;">About Us</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+            <h5>CONTACT US THROUGH</h5>
+            <div style="display: flex; gap: 10px;">
+                <a href="https://web.facebook.com/PAF.Hospital.Islamabad/?_rdc=1&_rdr"><img src="images/fb.png" alt="Facebook" style="width: 35px;"></a>
+                <a href="https://www.instagram.com/pafhospital/"><img src="images/insta.png" alt="Instagram" style="width: 35px;"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter" style="width: 35px;"></a>
+            </div>
+        </div>
+    </footer>
+    </body>
+    </html>

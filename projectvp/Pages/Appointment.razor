@@ -1,0 +1,281 @@
+﻿@page "/Appointment"
+@inject NavigationManager NavManager
+@inject AuthService AuthService
+@using projectvp.Models
+@inject AppointmentService appointmentService
+@inject NavigationManager Navigation
+@inject IJSRuntime JS
+
+@code {
+    private string selectedDoctor = "";
+    private string availability = "";
+
+    protected override void OnInitialized()
+    {
+        var uri = NavManager.ToAbsoluteUri(NavManager.Uri);
+        var query = Microsoft.AspNetCore.WebUtilities.QueryHelpers.ParseQuery(uri.Query);
+
+        if (query.TryGetValue("doctor", out var doctorVal))
+        {
+            selectedDoctor = doctorVal;
+        }
+
+        if (query.TryGetValue("time", out var availabilityVal)) // fixed here
+        {
+            availability = availabilityVal;
+        }
+    }
+    //-----------------saving data to database----------------------
+    private projectvp.Models.Appointment appointment = new projectvp.Models.Appointment();
+
+    private string message = "";
+
+    private async Task HandleSubmit()
+    {
+        bool result = await appointmentService.SaveAppointment(appointment);
+        message = result ? "Appointment submitted successfully!" : "Failed to submit appointment.";
+    }    
+
+}
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PAF Complex</title>
+    <link rel="stylesheet" href="stylesheet.css" />
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-left">
+            <img src="images/logo.png" alt="Logo" class="logo-img" />
+            <div class="logo-text">
+                <span class="paf">PAF</span><br />
+                <span class="complex">Complex</span>
+            </div>
+        </div>
+        <ul class="nav-links">
+            <li><a href="/">Home</a></li>
+            <li><a href="Services">Services</a></li>
+            <li><a href="Appointment">Appointments</a></li>
+            <li><a href="Complaint">Complaints</a></li>
+            <li><a href="Contact">About Us</a></li>
+        </ul>
+    <a href="/Signup" class="signup-btn">Sign Up</a>
+    </nav>
+    <style>
+        /* Reset margin and padding */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Poppins', sans-serif;
+            background-color: #F1EFEC;
+        }
+
+        /* Message Boxes */
+        .info-container {
+            background-color: #123458;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+            .info-container h2 {
+                margin: 0;
+                font-size: 1.3em;
+            }
+
+        .instruction-box {
+        background-color: #F1EFEC;
+            padding: 20px;
+            text-align: center;
+            color: #123458;
+            color: black;
+        }
+
+
+        /* Form Container */
+        .outer-wrapper {
+            background-color: #D4C9BE;
+            padding: 40px 20px;
+            border-radius: 20px;
+            max-width: 900px;
+            margin: 50px auto;
+        }
+
+
+        .form-row {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+            .form-row label {
+                width: 180px; /* You can tweak this size */
+                background-color: #F1EFEC;
+                color: black;
+                padding: 12px;
+                border-radius: 25px;
+                margin-right: 10px;
+                text-align: center;
+                font-weight: bold;
+                border: 2px solid #ccc;
+                box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+                flex-shrink: 0; /* Prevent label from shrinking */
+            }
+
+
+
+            .form-row input,
+            .form-row select,
+            .form-row textarea {
+                flex: 1;
+                padding: 12px;
+                background-color: #123458;
+                color: white;
+                border: none;
+                border-radius: 20px;
+            }
+
+                .form-row input::placeholder,
+                .form-row textarea::placeholder {
+                    color: #ccc;
+                }
+
+        /* Submit Button Styling */
+       .submit-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit-button {
+    padding: 12px 30px;
+    background-color: #F1EFEC;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.submit-button:hover {
+    background-color: #f2f2f2;
+}
+
+
+    </style>
+    <div class="info-container">
+        <h5><b>Book Appointment</b></h5>
+        <p>Your health matters. Choose the right doctor for a comfortable and compassionate care journey.</p>
+    </div>
+
+    <div class="instruction-box">
+        <p>
+            <b>To request an appointment, please fill out the following form. Provide your preferred date and time for the appointment. Our team will review your request and contact you based on doctor availability.</b>
+        </p>
+    </div>
+@if (!AuthService.IsLoggedIn)
+{
+    Navigation.NavigateTo("/Signup");
+}
+else
+{
+    <!-- Form Section -->
+<div class="outer-wrapper">
+    <form @onsubmit="HandleSubmit">
+        <div class="form-row">
+            <label for="name">NAME</label>
+            <input type="text" id="name" @bind="appointment.Name" placeholder="Enter your name here" required>
+        </div>
+
+        <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" @bind="appointment.Email" placeholder="user@website.com" required>
+        </div>
+
+        <div class="form-row">
+            <label for="phone">Phone</label>
+            <input type="text" id="phone" @bind="appointment.Phone" placeholder="XXXX-XXXXXXX" required>
+        </div>
+
+            <div class="form-row">
+                <label for="doctors">Doctors</label>
+            <select id="doctors" @bind="appointment.Doctor">
+                    <option selected>@selectedDoctor</option>
+                    <option>Select Doctors</option>
+                    <option>Dr. Sadia Khan</option>
+                    <option>Dr. Fatima Khan</option>
+                    <option>Dr. Ayesha Rehman</option>
+                    <option>Dr. Usman Zafar</option>
+                    <option>Dr. Sana Iqbal</option>
+                    <option>Dr. Imran Farooq</option>
+                    <option>Dr. Hira Shahid</option>
+                    <option>Dr. Biall Mehmood</option>
+                    <option>Dr. Mahnoor Rizvi</option>
+                    <option>Dr. Aliya Waqar</option>
+                    <option>Dr. Adnan Qureshi</option>
+                    <option>Dr. Farah Javed</option>
+                </select>
+            </div>
+
+            <div class="form-row">
+                <label for="availability">Availability</label>
+            <input type="text"
+                   id="availability"
+                   value="@(!string.IsNullOrWhiteSpace(availability) ? availability : "Not available / Not selected")"
+                   readonly />
+
+            </div>
+
+
+        <div class="form-row">
+            <label for="date">Date of appointment</label>
+            <input type="date" id="date" @bind="appointment.Date">
+        </div>
+
+            <div class="form-row">
+                <label for="comments">Additional Comments (If any)</label>
+                <textarea id="comments" rows="4" placeholder="Enter Your Comments"></textarea>
+            </div>
+
+        <div class="submit-wrapper">
+            <button type="submit" class="submit-button">Submit</button>
+        </div>
+        <p>@message</p>
+    </form>
+</div>
+}
+    <!-- Footer -->
+    <footer style="background-color: #123458; color: white; padding: 40px 20px; display: flex; justify-content: space-between; flex-wrap: wrap;">
+        <div style="flex: 1; min-width: 200px; display: flex; align-items: center;">
+            <img src="images/logo2.png" alt="Logo" style="width: 40px; height: auto; margin-right: 2px;">
+            <div>
+                <span style="font-size: 20px; font-weight: bold;">PAF</span>
+                <span style="font-size: 16px;">Complex</span>
+            </div>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+            <h5>QUICK LINKS</h5>
+            <ul style="list-style: none; padding: 0;">
+                <li><a href="Services" style="color: white; text-decoration: none;">Services</a></li>
+                <li><a href="Appointment" style="color: white; text-decoration: none;">Appointment</a></li>
+                <li><a href="Complaint" style="color: white; text-decoration: none;">Complaints</a></li>
+                <li><a href="Contact" style="color: white; text-decoration: none;">About Us</a></li>
+            </ul>
+        </div>
+        <div style="flex: 1; min-width: 200px;">
+            <h5>CONTACT US THROUGH</h5>
+            <div style="display: flex; gap: 10px;">
+            <a href="https://web.facebook.com/PAF.Hospital.Islamabad/?_rdc=1&_rdr#"><img src="images/fb.png" alt="Facebook" style="width: 35px;"></a>
+            <a href="https://www.instagram.com/pafhospital/"><img src="images/insta.png" alt="Instagram" style="width: 35px;"></a>
+                <a href="#"><img src="images/twitter.png" alt="Twitter" style="width: 35px;"></a>
+            </div>
+        </div>
+    </footer>
+
